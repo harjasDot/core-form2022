@@ -19,5 +19,5 @@ def core(request):
         response = requests.post(url=sheetly_endpoint, json=sheetly_params, headers=sheetly_header)
         # print(response.text)
         return render(request,'thankyou.html')
-    return render(request,'thankyou.html')
+    return render(request,'core.html')
 
