@@ -1,7 +1,7 @@
 .main{
     text-align: center;
     margin-top:30px;
-    padding: 45px;
+    padding: 35px;
     width:40%;
     background: rgba(225, 225, 225, 0.2);
     box-shadow: rgb(0, 0, 0,0.5);
@@ -13,3 +13,14 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+@media only screen and (max-width: 770px) {
+    .main{
+        padding: 15px;
+        width:100%;
+        
+    }
+    body{
+        background:url("https://img.freepik.com/free-vector/gradient-dark-dynamic-lines-background_23-2148995950.jpg")
+    }
+  }
+  
