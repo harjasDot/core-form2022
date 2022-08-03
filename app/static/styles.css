@@ -1,7 +1,15 @@
 .main{
-    margin-top:30px;
     text-align: center;
+    margin-top:30px;
+    padding: 45px;
+    width:40%;
+    background: rgba(225, 225, 225, 0.2);
+    box-shadow: rgb(0, 0, 0,0.5);
+    border-radius: 10px;
 }
 body{
-    background-color: black;
+    background:url("https://us.123rf.com/450wm/jojjik/jojjik1811/jojjik181100176/116546545-picturesque-morning-view-of-plitvice-national-park-colorful-spring-scene-of-green-forest-with-pure-w.jpg?ver=6");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
