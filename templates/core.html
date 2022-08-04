@@ -20,44 +20,44 @@
             {% csrf_token %}
             
             <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="1" placeholder="Name" name="name">
+                <input type="text" class="form-control" id="1" placeholder="Name" name="name" required>
                 <label for="1">Name</label>
             </div>
             <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="2" placeholder="Branch" name="q1">
+                <input type="text" class="form-control" id="2" placeholder="Branch" name="q1"  required> 
                 <label for="2">Branch</label>
             </div>
             <div class="form-floating mb-3">
-                <input type="number" class="form-control" id="3" placeholder="Roll no." name="q2">
+                <input type="number" class="form-control" id="3" placeholder="Roll no." name="q2"  required>
                 <label for="3">Roll no.</label>
             </div>
             <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="4" placeholder="Day Scholar or Not?" name="q3">
+                <input type="text" class="form-control" id="4" placeholder="Day Scholar or Not?" name="q3"  required>
                 <label for="4">Day Scholar or Not?</label>
             </div>
             <div class="form-floating mb-3">
               
-              <input type="text" class="form-control" id="5" placeholder="What is VIRSA according to you?" name="q4">
+              <input type="text" class="form-control" id="5" placeholder="What is VIRSA according to you?" name="q4"  required>
               <label for="5">What is VIRSA according to you?</label>
             </div>
             <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="6" placeholder="Why do you think you are eligible for this post?" name="q5">
+              <input type="text" class="form-control" id="6" placeholder="Why do you think you are eligible for this post?" name="q5"  required>
               <label for="6">Why do you think you are eligible for this post?</label>
             </div>
             <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="7" placeholder="Your contributions so far?" name="q6">
+              <input type="text" class="form-control" id="7" placeholder="Your contributions so far?" name="q6"  required>
               <label for="7">Your contributions so far?</label>
             </div>
             <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="8" placeholder="Discuss any 2 event ideas you'll carry out in Virsa?" name="q7">
+              <input type="text" class="form-control" id="8" placeholder="Discuss any 2 event ideas you'll carry out in Virsa?" name="q7"  required>
               <label for="8">Discuss any 2 event ideas you'll carry out in Virsa?</label>
             </div>
             <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="10" placeholder="Are you ready to miss lectures when necessary?" name="q8">
+              <input type="text" class="form-control" id="10" placeholder="Are you ready to miss lectures when necessary?" name="q8"  required>
               <label for="1-">Are you ready to miss lectures when necessary?</label>
             </div>
             <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="9" placeholder="Why do you think you deserve to be a part of Virsa?" name="q9">
+              <input type="text" class="form-control" id="9" placeholder="Why do you think you deserve to be a part of Virsa?" name="q9"  required>
               <label for="9">Why do you think you deserve to be a part of Virsa?</label>
            </div>
             
@@ -70,7 +70,7 @@
                 </tr>
                 <tr>
                   <td>Content Writing</td>
-                  <td><input type="radio" id="html" name="content" value="1">
+                  <td><input type="radio" id="html" name="content" value="1"  required>
                 <label for="html">1</label>
                 <input type="radio" id="css" name="content" value="2">
                 <label for="css">2</label>
@@ -84,7 +84,7 @@
                 </tr>
                 <tr>
                   <td>Technical</td>
-                  <td><input type="radio" id="html" name="tech" value="1">
+                  <td><input type="radio" id="html" name="tech" value="1"  required>
                 <label for="html">1</label>
                 <input type="radio" id="css" name="tech" value="2">
                 <label for="css">2</label>
@@ -97,7 +97,7 @@
                 </tr>
                 <tr>
                   <td>Design and Media</td>
-                   <td><input type="radio" id="html" name="design" value="1">
+                   <td><input type="radio" id="html" name="design" value="1"  required>
                 <label for="html">1</label>
                 <input type="radio" id="css" name="design" value="2">
                 <label for="css">2</label>
@@ -110,7 +110,7 @@
                 </tr>
                 <tr>
                   <td>Cultural</td>
-                  <td><input type="radio" id="html" name="cultural" value="1">
+                  <td><input type="radio" id="html" name="cultural" value="1"  required>
                 <label for="html">1</label>
                 <input type="radio" id="css" name="cultural" value="2">
                 <label for="css">2</label>
@@ -123,7 +123,7 @@
                 </tr>
                 <tr>
                   <td>Creativity</td>
-                  <td><input type="radio" id="html" name="creativity" value="1">
+                  <td><input type="radio" id="html" name="creativity" value="1"  required>
                 <label for="html">1</label>
                 <input type="radio" id="css" name="creativity" value="2">
                 <label for="css">2</label>
@@ -136,7 +136,7 @@
                 </tr>
                 <tr>
                   <td>Hospitality</td>
-                  <td><input type="radio" id="html" name="hospitality" value="1">
+                  <td><input type="radio" id="html" name="hospitality" value="1"  required>
                 <label for="html">1</label>
                 <input type="radio" id="css" name="hospitality" value="2">
                 <label for="css">2</label>
@@ -149,7 +149,7 @@
                 </tr>
                 <tr>
                   <td>Logistics</td>
-                  <td><input type="radio" id="html" name="logistics" value="1">
+                  <td><input type="radio" id="html" name="logistics" value="1"  required>
                 <label for="html">1</label>
                 <input type="radio" id="css" name="logistics" value="2">
                 <label for="css">2</label>
