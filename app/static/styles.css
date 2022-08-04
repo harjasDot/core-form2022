@@ -1,26 +1,64 @@
 .main{
     text-align: center;
     margin-top:30px;
+    margin-bottom:30px;
     padding: 35px;
     width:40%;
     background: rgba(225, 225, 225, 0.2);
     box-shadow: rgb(0, 0, 0,0.5);
     border-radius: 10px;
 }
+h1, h3{
+    color: #fff;
+}
+img{
+    height:200px;
+    width:200px;
+    border-radius: 10px;
+}
 body{
-    background:url("https://us.123rf.com/450wm/jojjik/jojjik1811/jojjik181100176/116546545-picturesque-morning-view-of-plitvice-national-park-colorful-spring-scene-of-green-forest-with-pure-w.jpg?ver=6");
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1x-gdHenXgND6YniEsEDkHSukAEDh9GQ1Xw&usqp=CAU");
     background-position: center;
-    background-size: cover;
+    background-size: cover !important;
     background-repeat: no-repeat;
 }
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 1200px) {
     .main{
         padding: 15px;
         width:100%;
-        
+       
     }
     body{
-        background:url("https://img.freepik.com/free-vector/gradient-dark-dynamic-lines-background_23-2148995950.jpg")
+        background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1x-gdHenXgND6YniEsEDkHSukAEDh9GQ1Xw&usqp=CAU");
     }
   }
+  @media only screen and (max-width: 426px){
+    .main{
+        font-size: 13px;
+        padding: 15px;
+        width:100%;
+        text-align:left;
+    }
+    .main h1{
+        text-align:center !important;
+    }
+  }
+
+input{
+    word-break: break-word;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    background-color:white;
+  }
+  
   
