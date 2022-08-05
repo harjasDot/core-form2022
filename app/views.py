@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from app.models import QUESTION
+import requests
 # Create your views here.
 sheetly_header={
     "Authorization":"Bearer csrvdvbteadvbrav"
@@ -45,6 +46,28 @@ def core(request):
         logistics=int(logistics),
         )
         data.save()
+
+        sheetly_params = {
+        "workout": {
+            "name":name,
+            "q1":q1,
+            "q2":q2,
+            "q3":q3,
+            "q4":q4,
+            "q6":q6,
+            "q7":q7,
+            "q8":q8,
+            "q9":q9,
+            "content":content,
+            "tech":tech,
+            "design":design,
+            "cultural":cultural,
+            "creativity":creativity,
+            "hospitality":hospitality,
+            "logistics":logistics,  
+        }
+        }
+        response = requests.post(url=sheetly_endpoint, json=sheetly_params, headers=sheetly_header)
 
         return render(request,'thankyou.html')
     return render(request,'core.html')
