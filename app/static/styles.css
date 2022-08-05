@@ -1,3 +1,16 @@
+#page2{
+    display: none;
+}
+.eme{
+    color:white !important;
+    margin-bottom:10px;
+}
+#page3{
+    display:none;
+}
+#page1{
+    display:block;
+}
 .main{
     text-align: center;
     margin-top:30px;
@@ -11,10 +24,13 @@
 h1, h3{
     color: #fff;
 }
-img{
-    height:200px;
-    width:200px;
+.main img{
+    height:110px;
+    width:250px;
     border-radius: 10px;
+    text-align: center !important;
+    display: block !important;
+    margin: auto !important;
 }
 body{
     background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1x-gdHenXgND6YniEsEDkHSukAEDh9GQ1Xw&usqp=CAU");
@@ -31,6 +47,11 @@ body{
     body{
         background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1x-gdHenXgND6YniEsEDkHSukAEDh9GQ1Xw&usqp=CAU");
     }
+    .main img{
+        text-align:center !important;
+        height:80px;
+        width:170px;
+    }
   }
   @media only screen and (max-width: 426px){
     .main{
@@ -40,6 +61,9 @@ body{
         text-align:left;
     }
     .main h1{
+        text-align:center !important;
+    }
+    .main img{
         text-align:center !important;
     }
   }

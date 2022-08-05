@@ -13,7 +13,7 @@ def core(request):
         q2=request.POST['q2']
         q3=request.POST['q3']
         q4=request.POST['q4']
-        q5=request.POST['q5']
+        
         q6=request.POST['q6']
         q7=request.POST['q7']
         q8=request.POST['q8']
@@ -31,7 +31,7 @@ def core(request):
         q2=q2,
         q3=q3,
         q4=q4,
-        q5=q5,
+        
         q6=q6,
         q7=q7,
         q8=q8,
