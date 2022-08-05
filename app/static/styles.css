@@ -1,3 +1,11 @@
+.r{
+ 
+    float: right;
+}
+.l{
+    float: left;
+}
+
 #page2{
     display: none;
 }
@@ -13,16 +21,21 @@
 }
 .main{
     text-align: center;
-    margin-top:30px;
+    margin-top:40px;
     margin-bottom:30px;
+    padding-bottom: 50px !important;
     padding: 35px;
     width:40%;
     background: rgba(225, 225, 225, 0.2);
     box-shadow: rgb(0, 0, 0,0.5);
     border-radius: 10px;
 }
-h1, h3{
+h1, h5{
     color: #fff;
+}
+h1{
+    margin-bottom:15px;
+    margin-top: 15px;
 }
 .main img{
     height:110px;
@@ -36,7 +49,9 @@ body{
     background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1x-gdHenXgND6YniEsEDkHSukAEDh9GQ1Xw&usqp=CAU");
     background-position: center;
     background-size: cover !important;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed;
+    
 }
 @media only screen and (max-width: 1200px) {
     .main{

@@ -33,9 +33,9 @@
             </div>
             <div class="form-floating mb-3">
                 <input type="text" class="form-control" id="4" placeholder="Day Scholar or Not?" name="q3"  required>
-                <label for="4">Day Scholar or Not?</label>
+                <label for="4">Day Scholar or Hosteler?</label>
             </div>
-            <button class="btn btn-primary" type="button" id="nextBtn" onclick="next()">Next</button>
+            <button class="btn btn-primary r" type="button" id="nextBtn" onclick="next()">Next</button>
           </div>
           {% comment %} ------------------------------------------- {% endcomment %}
           <div id="page2">
@@ -51,14 +51,8 @@
             </div>
             <div class="form-floating mb-3">
               <input type="text" class="form-control" id="10" placeholder="Will you missyour classes for Virsa?" name="q8"  required>
-              <label for="1-">Will you missyour classes for Virsa?</label>
+              <label for="1-">Can you miss your classes for Virsa?</label>
             </div>
-            
-           <button class="btn btn-primary" type="button" id="nextBtn" onclick="prev1()">Previous</button>
-           <button class="btn btn-primary" type="button" id="nextBtn" onclick="next1()">Next</button>
-          </div>
-          {% comment %} -------------------------------------------------------- {% endcomment %}
-          <div id="page3">
             <div class="form-floating mb-3">
               
               <input type="text" class="form-control" id="5" placeholder="What is VIRSA according to you?" name="q4"  required>
@@ -68,9 +62,16 @@
               <input type="text" class="form-control" id="9" placeholder="Why do you think you deserve to be a part of Virsa?" name="q9"  required>
               <label for="9">Why do you think you deserve to be a part of Virsa?</label>
            </div>
+            
+           <button class="btn btn-primary l" type="button" id="nextBtn" onclick="prev1()">Previous</button>
+           <button class="btn btn-primary  r" type="button" id="nextBtn" onclick="next1()">Next</button>
+          </div>
+          {% comment %} -------------------------------------------------------- {% endcomment %}
+          <div id="page3">
+            
             <div class="form-floating mb-3">
-              <h3>On a scale of 5 , rate your contributions in the following Departments:</h3>
-              <table>
+              <h5>On a scale of 5 , rate your contributions in the following Departments:</h5>
+              <table class="mt-3">
                 <tr>
                   <th>Department</th>
                   <th>Rating</th>
@@ -170,9 +171,9 @@
                 
               </table>
             </div>
-            <div class="eme"><em >*make sure you have asnwered all the questions on all pages</em></div>
-            <button class="btn btn-primary" type="button" id="nextBtn" onclick="prevf()">Previous</button>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="eme"><em >*make sure you have answered all the questions on all pages</em></div>
+            <button class="btn btn-primary l" type="button" id="nextBtn" onclick="prevf()">Previous</button>
+            <button type="submit" class="btn btn-primary r">Submit</button>
           </div>
           </form>
 
